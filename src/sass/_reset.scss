@@ -1,0 +1,76 @@
+@import "variables";
+//   --   Basic Settings  --
+:root {
+    font-family: $text-font;
+    --mainspacing: 0.1rem;
+    --maintransition: all 0.3s linear;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-repeat: repeat, repeat;
+    background-blend-mode: multiply;
+}
+
+body {
+    margin: 0;
+    padding-top: 5px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: $text-color;
+}
+
+h1,
+h3 {
+    color: $main-dark;
+    font-family: $title-font;
+    font-weight: normal;
+    // text-align: center;
+    // text-transform: uppercase;
+    -webkit-filter: drop-shadow(3px 5px 3px lighten($main-white, 30%));
+    filter: drop-shadow(3px 5px 3px lighten($main-white, 30%));
+}
+
+p {
+    color: $text-color;
+    font-size: 1rem;
+    font-family: "Dosis", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    &:hover {
+        color: darken($orange, 20%);
+    }
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+h6 {
+    font-size: 0.7rem;
+}
