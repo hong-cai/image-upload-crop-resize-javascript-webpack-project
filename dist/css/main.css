@@ -10194,7 +10194,7 @@ h3 {
   background: darkgrey;
 }
 .cropper-hide {
-  display: block;
+  display: none;
   height: 0;
   position: absolute;
   width: 0;
@@ -11381,7 +11381,7 @@ body {
   border: none;
 }
 
-.btn:focus {
+.btn:focus, input[range]:focus {
   outline: none;
   box-shadow: none;
 }

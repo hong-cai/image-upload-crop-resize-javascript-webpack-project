@@ -1,4 +1,4 @@
-import 'jquery';
+import $ from 'jquery';
 import 'bootstrap';
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import Cropper from 'cropperjs';

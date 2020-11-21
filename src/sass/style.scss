@@ -21,7 +21,7 @@ body {
 }
 
 //Bootstrap customized
-.btn:focus {
+.btn:focus,input[range]:focus{
     outline: none;
     box-shadow: none;
 }
