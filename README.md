@@ -25,3 +25,4 @@
      - Crop the image
      - Use Sweetalert2.js to display the cropped image
      - Use Sweetalert2.js to allow downloading the image
+     - Use Javascript to create a carousel to scroll through the different photo frames
