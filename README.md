@@ -11,7 +11,7 @@
       
 ### [Project Demo Here](https://hong-cai.github.io/image-upload-crop-resize-javascript-webpack-project/)
 ### [Commercial Use Here](https://www.crystalphotos.nz/try-before-you-buy/)
-<img src="https://github.com/hong-cai/image-upload-crop-resize-javascript-webpack-project/tree/main/src/img/app-screenshot.png" width="500px" height="auto">
+<img src="https://github.com/hong-cai/image-upload-crop-resize-javascript-webpack-project/tree/main/src/img/app-screenshot-sm.png" width="500px" height="auto">
 ## Introduction
 - This repository serves as part of a Big-commerce project to allow uses to upload their own photos to match a suitable product photoframe and download a screenshot they are happy with.
 
